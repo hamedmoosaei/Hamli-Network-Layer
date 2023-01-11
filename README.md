@@ -23,15 +23,6 @@ This class can be sth like this:
 
 import Foundation
 
-protocol NetworkManagerStateDelegate: AnyObject {
-    associatedtype EndPoint: EndPointType
-    func noDataErrorState()
-    func unableToDecodeErrorState()
-    func urlSessionErrorState(text: String)
-    func respopnseErrorState(model: ErrorModel)
-    func dataRecived(model: Decodable, api: EndPoint)
-}
-
 class NetworkManager<EndPoint: EndPointType, ErrorModel: Codable> {
     
     // MARK: Variable
