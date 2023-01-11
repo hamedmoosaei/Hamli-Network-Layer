@@ -19,7 +19,7 @@ First you need to define your own Network manager class to customize your Error 
 
 This class can be something like this:
 
-```
+```swift
 
 import Foundation
 
@@ -71,4 +71,4 @@ class NetworkManager<EndPoint: EndPointType, ErrorModel: Codable> {
 }
 ```
 
-Now you can instantiate from this class and perform your request just by passing your request endpoint and specifying the decoding model .
+Now you can instantiate from this class and perform your request just by passing your request endpoint and specifying the decoding model.
