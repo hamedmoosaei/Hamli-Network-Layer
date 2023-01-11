@@ -15,9 +15,9 @@ A simple network layer based on URLSession
 
 ## Usage
 
-First you need to define your own Network manager to customize your Error Model
+First you need to define your own Network manager class to customize your Error Model.
 
-This class can be sth like this:
+This class can be something like this:
 
 ```
 
