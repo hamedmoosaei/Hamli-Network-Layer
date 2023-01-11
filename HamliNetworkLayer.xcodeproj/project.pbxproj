@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05FEEB32296EE5E20038232E /* HamliNetworkLayer.docc in Sources */ = {isa = PBXBuildFile; fileRef = 05FEEB31296EE5E20038232E /* HamliNetworkLayer.docc */; };
+		05FEEB38296EE5E20038232E /* HamliNetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FEEB2D296EE5E20038232E /* HamliNetworkLayer.framework */; };
+		05FEEB3E296EE5E20038232E /* HamliNetworkLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 05FEEB30296EE5E20038232E /* HamliNetworkLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05FEEB4D296EE6C50038232E /* URLParameterEncodingUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FEEB47296EE6C50038232E /* URLParameterEncodingUnitTest.swift */; };
+		05FEEB4E296EE6C50038232E /* MultiPartParameterEncodingUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FEEB48296EE6C50038232E /* MultiPartParameterEncodingUnitTest.swift */; };
+		05FEEB4F296EE6C50038232E /* NetworkErrorUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FEEB49296EE6C50038232E /* NetworkErrorUnitTest.swift */; };
+		05FEEB50296EE6C50038232E /* JSONParameterEncodingUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FEEB4A296EE6C50038232E /* JSONParameterEncodingUnitTest.swift */; };
+		05FEEB51296EE6C50038232E /* RouterUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FEEB4B296EE6C50038232E /* RouterUnitTest.swift */; };
+		05FEEB52296EE6C50038232E /* URLAndJSONParameterEncodingUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FEEB4C296EE6C50038232E /* URLAndJSONParameterEncodingUnitTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05FEEB39296EE5E20038232E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05FEEB24296EE5E20038232E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05FEEB2C296EE5E20038232E;
+			remoteInfo = HamliNetworkLayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05FEEB2D296EE5E20038232E /* HamliNetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HamliNetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FEEB30296EE5E20038232E /* HamliNetworkLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HamliNetworkLayer.h; sourceTree = "<group>"; };
+		05FEEB31296EE5E20038232E /* HamliNetworkLayer.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = HamliNetworkLayer.docc; sourceTree = "<group>"; };
+		05FEEB37296EE5E20038232E /* HamliNetworkLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamliNetworkLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FEEB47296EE6C50038232E /* URLParameterEncodingUnitTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLParameterEncodingUnitTest.swift; sourceTree = "<group>"; };
+		05FEEB48296EE6C50038232E /* MultiPartParameterEncodingUnitTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiPartParameterEncodingUnitTest.swift; sourceTree = "<group>"; };
+		05FEEB49296EE6C50038232E /* NetworkErrorUnitTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkErrorUnitTest.swift; sourceTree = "<group>"; };
+		05FEEB4A296EE6C50038232E /* JSONParameterEncodingUnitTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParameterEncodingUnitTest.swift; sourceTree = "<group>"; };
+		05FEEB4B296EE6C50038232E /* RouterUnitTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterUnitTest.swift; sourceTree = "<group>"; };
+		05FEEB4C296EE6C50038232E /* URLAndJSONParameterEncodingUnitTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLAndJSONParameterEncodingUnitTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05FEEB2A296EE5E20038232E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FEEB34296EE5E20038232E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FEEB38296EE5E20038232E /* HamliNetworkLayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05FEEB23296EE5E20038232E = {
+			isa = PBXGroup;
+			children = (
+				05FEEB2F296EE5E20038232E /* HamliNetworkLayer */,
+				05FEEB3B296EE5E20038232E /* HamliNetworkLayerTests */,
+				05FEEB2E296EE5E20038232E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05FEEB2E296EE5E20038232E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05FEEB2D296EE5E20038232E /* HamliNetworkLayer.framework */,
+				05FEEB37296EE5E20038232E /* HamliNetworkLayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05FEEB2F296EE5E20038232E /* HamliNetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				05FEEB30296EE5E20038232E /* HamliNetworkLayer.h */,
+				05FEEB31296EE5E20038232E /* HamliNetworkLayer.docc */,
+			);
+			path = HamliNetworkLayer;
+			sourceTree = "<group>";
+		};
+		05FEEB3B296EE5E20038232E /* HamliNetworkLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				05FEEB4A296EE6C50038232E /* JSONParameterEncodingUnitTest.swift */,
+				05FEEB48296EE6C50038232E /* MultiPartParameterEncodingUnitTest.swift */,
+				05FEEB49296EE6C50038232E /* NetworkErrorUnitTest.swift */,
+				05FEEB4B296EE6C50038232E /* RouterUnitTest.swift */,
+				05FEEB4C296EE6C50038232E /* URLAndJSONParameterEncodingUnitTest.swift */,
+				05FEEB47296EE6C50038232E /* URLParameterEncodingUnitTest.swift */,
+			);
+			path = HamliNetworkLayerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05FEEB28296EE5E20038232E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FEEB3E296EE5E20038232E /* HamliNetworkLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05FEEB2C296EE5E20038232E /* HamliNetworkLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05FEEB41296EE5E20038232E /* Build configuration list for PBXNativeTarget "HamliNetworkLayer" */;
+			buildPhases = (
+				05FEEB28296EE5E20038232E /* Headers */,
+				05FEEB29296EE5E20038232E /* Sources */,
+				05FEEB2A296EE5E20038232E /* Frameworks */,
+				05FEEB2B296EE5E20038232E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HamliNetworkLayer;
+			productName = HamliNetworkLayer;
+			productReference = 05FEEB2D296EE5E20038232E /* HamliNetworkLayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		05FEEB36296EE5E20038232E /* HamliNetworkLayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05FEEB44296EE5E20038232E /* Build configuration list for PBXNativeTarget "HamliNetworkLayerTests" */;
+			buildPhases = (
+				05FEEB33296EE5E20038232E /* Sources */,
+				05FEEB34296EE5E20038232E /* Frameworks */,
+				05FEEB35296EE5E20038232E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05FEEB3A296EE5E20038232E /* PBXTargetDependency */,
+			);
+			name = HamliNetworkLayerTests;
+			productName = HamliNetworkLayerTests;
+			productReference = 05FEEB37296EE5E20038232E /* HamliNetworkLayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05FEEB24296EE5E20038232E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					05FEEB2C296EE5E20038232E = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					05FEEB36296EE5E20038232E = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 05FEEB27296EE5E20038232E /* Build configuration list for PBXProject "HamliNetworkLayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05FEEB23296EE5E20038232E;
+			productRefGroup = 05FEEB2E296EE5E20038232E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05FEEB2C296EE5E20038232E /* HamliNetworkLayer */,
+				05FEEB36296EE5E20038232E /* HamliNetworkLayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05FEEB2B296EE5E20038232E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FEEB35296EE5E20038232E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05FEEB29296EE5E20038232E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FEEB32296EE5E20038232E /* HamliNetworkLayer.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FEEB33296EE5E20038232E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FEEB4D296EE6C50038232E /* URLParameterEncodingUnitTest.swift in Sources */,
+				05FEEB4F296EE6C50038232E /* NetworkErrorUnitTest.swift in Sources */,
+				05FEEB51296EE6C50038232E /* RouterUnitTest.swift in Sources */,
+				05FEEB52296EE6C50038232E /* URLAndJSONParameterEncodingUnitTest.swift in Sources */,
+				05FEEB50296EE6C50038232E /* JSONParameterEncodingUnitTest.swift in Sources */,
+				05FEEB4E296EE6C50038232E /* MultiPartParameterEncodingUnitTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05FEEB3A296EE5E20038232E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05FEEB2C296EE5E20038232E /* HamliNetworkLayer */;
+			targetProxy = 05FEEB39296EE5E20038232E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05FEEB3F296EE5E20038232E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		05FEEB40296EE5E20038232E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		05FEEB42296EE5E20038232E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2RJFX5PSNK;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamed.HamliNetworkLayer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05FEEB43296EE5E20038232E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2RJFX5PSNK;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamed.HamliNetworkLayer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05FEEB45296EE5E20038232E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RJFX5PSNK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamed.HamliNetworkLayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05FEEB46296EE5E20038232E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RJFX5PSNK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamed.HamliNetworkLayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05FEEB27296EE5E20038232E /* Build configuration list for PBXProject "HamliNetworkLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FEEB3F296EE5E20038232E /* Debug */,
+				05FEEB40296EE5E20038232E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05FEEB41296EE5E20038232E /* Build configuration list for PBXNativeTarget "HamliNetworkLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FEEB42296EE5E20038232E /* Debug */,
+				05FEEB43296EE5E20038232E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05FEEB44296EE5E20038232E /* Build configuration list for PBXNativeTarget "HamliNetworkLayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FEEB45296EE5E20038232E /* Debug */,
+				05FEEB46296EE5E20038232E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05FEEB24296EE5E20038232E /* Project object */;
+}
